@@ -1,0 +1,44 @@
+body{
+    background-image: url(img/bg-img.jpeg);
+    border-image-repeat: stretch;
+}
+.top{
+  column-count: 2;
+}
+.logotxt{
+  color: white;
+  padding-left: 50px;
+  width: auto;
+}
+.search{
+  width: 100%;
+  height: 30px;
+  padding-right: 350px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+}
+.mainContainer{
+  width: 90%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img{
+  width: 90%;
+}
+.containerA{
+  display: inline-block;
+}
+.containerB{
+  display: inline-block;
+}
+.containerC{
+  display: inline-block;
+}
+.name{
+  color: white;
+  text-decoration: none;
+}

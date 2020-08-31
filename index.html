@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Online Music player</title>
+    <style>
+        body{
+            background-image: url(img/bg-img.jpeg);
+            border-image-repeat: repeat;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 72px;
+            padding-top: 100px;
+        }
+        .btn {
+  border-radius: 8px;
+  background-color: rgb(231, 112, 14);
+  border: none;
+  color:white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 550px;
+  border: 1px black;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+    </style>
+</head>
+<body>
+      <h1>
+          Tamil Online Music player
+      </h1>
+      <button class="btn" onclick="window.location.href='main.html';"><span>Let's Start </span></button>
+
+</body>
+</html>

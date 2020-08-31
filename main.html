@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Online Music player</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <script src="main.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <div class="top">
+      <h3 class="logotxt">Tamil Musicplayer</h3>
+      <input type="search" placeholder="Search..." class="search">
+  </div>
+  <div class="mainContainer col-10">
+    <div class="row" id="row">
+      <div class="col-md-3 a1">
+          <div class="">
+              <a href="">
+                  <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+                       width="204.5">
+                  <div class="caption">
+                      <div class="mv">
+                       <p class="name">Bale Bale Bahubali</p>
+                      </div>
+                      <button type="button" class="btn btn-primary" id="start">Start</button>
+                      <button type="button" class="btn btn-primary" id="stop">Stops</button>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="col-md-3 a1">
+        <div class="">
+            <a href="">
+                <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+                     width="204.5">
+                <div class="caption">
+                    <div class="mv">
+                      <p class="name">Thangame </p>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="start2">Start</button>
+                    <button type="button" class="btn btn-primary" id="stop2">Stops</button>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-md-3 a1">
+      <div class="">
+          <a href="">
+              <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+                   width="204.5">
+              <div class="caption">
+                  <div class="mv">
+                    <p class="name">Innum Konjam</p>
+                  </div>
+                  <button type="button" class="btn btn-primary" id="start3">Start</button>
+                  <button type="button" class="btn btn-primary" id="stop3">Stops</button>
+              </div>
+          </a>
+      </div>
+  </div>
+  <div class="col-md-3 a1">
+    <div class="">
+        <a href="">
+            <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+                 width="204.5">
+            <div class="caption">
+                <div class="mv">
+                  <p class="name">Orey Oar Ooril</p>
+
+                </div>
+                <button type="button" class="btn btn-primary" id="start4">Start</button>
+                <button type="button" class="btn btn-primary" id="stop4">Stops</button>
+            </div>
+        </a>
+    </div>
+</div>
+<br><br>
+<div class="col-md-3 a1">
+  <div class="">
+      <a href="">
+          <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+               width="204.5">
+          <div class="caption">
+              <div class="mv">
+               <p class="name">Neeyum Naanum</p>
+              </div>
+              <button type="button" class="btn btn-primary" id="start5">Start</button>
+              <button type="button" class="btn btn-primary" id="stop5">Stops</button>
+          </div>
+      </a>
+  </div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+    <a href="">
+        <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+             width="204.5">
+        <div class="caption">
+            <div class="mv">
+              <p class="name">Poi Solla Koodhathu</p>
+            </div>
+            <button type="button" class="btn btn-primary" id="start6">Start</button>
+            <button type="button" class="btn btn-primary" id="stop6">Stops</button>
+        </div>
+    </a>
+</div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+  <a href="">
+      <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+           width="204.5">
+      <div class="caption">
+          <div class="mv">
+            <p class="name">Mazhai Varum Arikuri</p>
+          </div>
+          <button type="button" class="btn btn-primary" id="start7">Start</button>
+          <button type="button" class="btn btn-primary" id="stop7">Stops</button>
+      </div>
+  </a>
+</div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+<a href="">
+    <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+         width="204.5">
+    <div class="caption">
+        <div class="mv">
+          <p class="name">Iam so cool</p>
+
+        </div>
+        <button type="button" class="btn btn-primary" id="start8">Start</button>
+        <button type="button" class="btn btn-primary" id="stop8">Stops</button>
+    </div>
+</a>
+</div>
+</div>
+<div class="col-md-3 a1">
+  <div class="">
+      <a href="">
+          <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+               width="204.5">
+          <div class="caption">
+              <div class="mv">
+               <p class="name">Sara Sara Saara Kathus</p>
+              </div>
+              <button type="button" class="btn btn-primary" id="start9">Start</button>
+              <button type="button" class="btn btn-primary" id="stop9">Stops</button>
+          </div>
+      </a>
+  </div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+    <a href="">
+        <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+             width="204.5">
+        <div class="caption">
+            <div class="mv">
+              <p class="name">Enadhuyirae</p>
+            </div>
+            <button type="button" class="btn btn-primary" id="start10">Start</button>
+            <button type="button" class="btn btn-primary" id="stop10">Stops</button>
+        </div>
+    </a>
+</div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+  <a href="">
+      <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+           width="204.5">
+      <div class="caption">
+          <div class="mv">
+            <p class="name">Saarattu Vandiyila</p>
+          </div>
+          <button type="button" class="btn btn-primary" id="start11">Start</button>
+          <button type="button" class="btn btn-primary" id="stop11">Stops</button>
+      </div>
+  </a>
+</div>
+</div>
+<div class="col-md-3 a1">
+<div class="">
+<a href="">
+    <img class="img-rounded" src="img/collections/poster.jpg" alt="poster" height="300.73"
+         width="204.5">
+    <div class="caption">
+        <div class="mv">
+          <p class="name">Munbe VaaSong name</p>
+
+        </div>
+        <button type="button" class="btn btn-primary" id="start12">Start</button>
+        <button type="button" class="btn btn-primary" id="stop12">Stops</button>
+    </div>
+</a>
+</div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+  </div>
+</body>
+</html>
